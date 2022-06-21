@@ -1,0 +1,6 @@
+framework module HYSpringboardViewSDK {
+  umbrella header "HYSpringboardViewSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4288889828600B7600001502 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288889728600B7600001502 /* AppDelegate.m */; };
+		4288889E28600B7600001502 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288889D28600B7600001502 /* ViewController.m */; };
+		428888A128600B7600001502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4288889F28600B7600001502 /* Main.storyboard */; };
+		428888A428600B7600001502 /* HYSpringboardViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 428888A228600B7600001502 /* HYSpringboardViewDemo.xcdatamodeld */; };
+		428888A628600B7900001502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428888A528600B7900001502 /* Assets.xcassets */; };
+		428888A928600B7A00001502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428888A728600B7900001502 /* LaunchScreen.storyboard */; };
+		428888AC28600B7A00001502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 428888AB28600B7A00001502 /* main.m */; };
+		428888B628600B7A00001502 /* HYSpringboardViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 428888B528600B7A00001502 /* HYSpringboardViewDemoTests.m */; };
+		428888C028600B7A00001502 /* HYSpringboardViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 428888BF28600B7A00001502 /* HYSpringboardViewDemoUITests.m */; };
+		428888C228600B7A00001502 /* HYSpringboardViewDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 428888C128600B7A00001502 /* HYSpringboardViewDemoUITestsLaunchTests.m */; };
+		4288892628606F3600001502 /* HYSpringboardCustomIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288892528606F3600001502 /* HYSpringboardCustomIcon.m */; };
+		4288892928615B1200001502 /* HYSpringboardViewSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4288892728615A4F00001502 /* HYSpringboardViewSDK.framework */; platformFilter = ios; };
+		4288892A28615B1200001502 /* HYSpringboardViewSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4288892728615A4F00001502 /* HYSpringboardViewSDK.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4288892F28616C1700001502 /* IMG_0365.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4288892C28616C1600001502 /* IMG_0365.jpg */; };
+		4288893028616C1700001502 /* RPReplay_Final1655775317.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4288892D28616C1700001502 /* RPReplay_Final1655775317.gif */; };
+		4288893128616C1700001502 /* IMG_0364.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4288892E28616C1700001502 /* IMG_0364.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		428888B228600B7A00001502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4288888B28600B7600001502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4288889228600B7600001502;
+			remoteInfo = HYSpringboardViewDemo;
+		};
+		428888BC28600B7A00001502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4288888B28600B7600001502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4288889228600B7600001502;
+			remoteInfo = HYSpringboardViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4288892B28615B1200001502 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4288892A28615B1200001502 /* HYSpringboardViewSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4288889328600B7600001502 /* HYSpringboardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYSpringboardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4288889628600B7600001502 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4288889728600B7600001502 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4288889C28600B7600001502 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4288889D28600B7600001502 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		428888A028600B7600001502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428888A328600B7600001502 /* HYSpringboardViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HYSpringboardViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		428888A528600B7900001502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		428888A828600B7A00001502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		428888AA28600B7A00001502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428888AB28600B7A00001502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		428888B128600B7A00001502 /* HYSpringboardViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYSpringboardViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428888B528600B7A00001502 /* HYSpringboardViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSpringboardViewDemoTests.m; sourceTree = "<group>"; };
+		428888BB28600B7A00001502 /* HYSpringboardViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYSpringboardViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428888BF28600B7A00001502 /* HYSpringboardViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSpringboardViewDemoUITests.m; sourceTree = "<group>"; };
+		428888C128600B7A00001502 /* HYSpringboardViewDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSpringboardViewDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4288892428606F3600001502 /* HYSpringboardCustomIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSpringboardCustomIcon.h; sourceTree = "<group>"; };
+		4288892528606F3600001502 /* HYSpringboardCustomIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSpringboardCustomIcon.m; sourceTree = "<group>"; };
+		4288892728615A4F00001502 /* HYSpringboardViewSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HYSpringboardViewSDK.framework; sourceTree = "<group>"; };
+		4288892C28616C1600001502 /* IMG_0365.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0365.jpg; sourceTree = "<group>"; };
+		4288892D28616C1700001502 /* RPReplay_Final1655775317.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RPReplay_Final1655775317.gif; sourceTree = "<group>"; };
+		4288892E28616C1700001502 /* IMG_0364.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0364.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428888AE28600B7A00001502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428888B828600B7A00001502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428888DA286020C900001502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4288892928615B1200001502 /* HYSpringboardViewSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4288888A28600B7600001502 = {
+			isa = PBXGroup;
+			children = (
+				4288889528600B7600001502 /* HYSpringboardViewDemo */,
+				428888B428600B7A00001502 /* HYSpringboardViewDemoTests */,
+				428888BE28600B7A00001502 /* HYSpringboardViewDemoUITests */,
+				4288889428600B7600001502 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4288889428600B7600001502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4288889328600B7600001502 /* HYSpringboardViewDemo.app */,
+				428888B128600B7A00001502 /* HYSpringboardViewDemoTests.xctest */,
+				428888BB28600B7A00001502 /* HYSpringboardViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4288889528600B7600001502 /* HYSpringboardViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4288892E28616C1700001502 /* IMG_0364.jpg */,
+				4288892C28616C1600001502 /* IMG_0365.jpg */,
+				4288892D28616C1700001502 /* RPReplay_Final1655775317.gif */,
+				4288892728615A4F00001502 /* HYSpringboardViewSDK.framework */,
+				4288889628600B7600001502 /* AppDelegate.h */,
+				4288889728600B7600001502 /* AppDelegate.m */,
+				4288889C28600B7600001502 /* ViewController.h */,
+				4288889D28600B7600001502 /* ViewController.m */,
+				4288892428606F3600001502 /* HYSpringboardCustomIcon.h */,
+				4288892528606F3600001502 /* HYSpringboardCustomIcon.m */,
+				4288889F28600B7600001502 /* Main.storyboard */,
+				428888A528600B7900001502 /* Assets.xcassets */,
+				428888A728600B7900001502 /* LaunchScreen.storyboard */,
+				428888AA28600B7A00001502 /* Info.plist */,
+				428888AB28600B7A00001502 /* main.m */,
+				428888A228600B7600001502 /* HYSpringboardViewDemo.xcdatamodeld */,
+			);
+			path = HYSpringboardViewDemo;
+			sourceTree = "<group>";
+		};
+		428888B428600B7A00001502 /* HYSpringboardViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				428888B528600B7A00001502 /* HYSpringboardViewDemoTests.m */,
+			);
+			path = HYSpringboardViewDemoTests;
+			sourceTree = "<group>";
+		};
+		428888BE28600B7A00001502 /* HYSpringboardViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				428888BF28600B7A00001502 /* HYSpringboardViewDemoUITests.m */,
+				428888C128600B7A00001502 /* HYSpringboardViewDemoUITestsLaunchTests.m */,
+			);
+			path = HYSpringboardViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4288889228600B7600001502 /* HYSpringboardViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428888C528600B7A00001502 /* Build configuration list for PBXNativeTarget "HYSpringboardViewDemo" */;
+			buildPhases = (
+				4288888F28600B7600001502 /* Sources */,
+				428888DA286020C900001502 /* Frameworks */,
+				4288889128600B7600001502 /* Resources */,
+				4288892B28615B1200001502 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYSpringboardViewDemo;
+			productName = HYSpringboardViewDemo;
+			productReference = 4288889328600B7600001502 /* HYSpringboardViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		428888B028600B7A00001502 /* HYSpringboardViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428888C828600B7A00001502 /* Build configuration list for PBXNativeTarget "HYSpringboardViewDemoTests" */;
+			buildPhases = (
+				428888AD28600B7A00001502 /* Sources */,
+				428888AE28600B7A00001502 /* Frameworks */,
+				428888AF28600B7A00001502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428888B328600B7A00001502 /* PBXTargetDependency */,
+			);
+			name = HYSpringboardViewDemoTests;
+			productName = HYSpringboardViewDemoTests;
+			productReference = 428888B128600B7A00001502 /* HYSpringboardViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		428888BA28600B7A00001502 /* HYSpringboardViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428888CB28600B7A00001502 /* Build configuration list for PBXNativeTarget "HYSpringboardViewDemoUITests" */;
+			buildPhases = (
+				428888B728600B7A00001502 /* Sources */,
+				428888B828600B7A00001502 /* Frameworks */,
+				428888B928600B7A00001502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428888BD28600B7A00001502 /* PBXTargetDependency */,
+			);
+			name = HYSpringboardViewDemoUITests;
+			productName = HYSpringboardViewDemoUITests;
+			productReference = 428888BB28600B7A00001502 /* HYSpringboardViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4288888B28600B7600001502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4288889228600B7600001502 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					428888B028600B7A00001502 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4288889228600B7600001502;
+					};
+					428888BA28600B7A00001502 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4288889228600B7600001502;
+					};
+				};
+			};
+			buildConfigurationList = 4288888E28600B7600001502 /* Build configuration list for PBXProject "HYSpringboardViewDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4288888A28600B7600001502;
+			productRefGroup = 4288889428600B7600001502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4288889228600B7600001502 /* HYSpringboardViewDemo */,
+				428888B028600B7A00001502 /* HYSpringboardViewDemoTests */,
+				428888BA28600B7A00001502 /* HYSpringboardViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4288889128600B7600001502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428888A928600B7A00001502 /* LaunchScreen.storyboard in Resources */,
+				4288892F28616C1700001502 /* IMG_0365.jpg in Resources */,
+				428888A628600B7900001502 /* Assets.xcassets in Resources */,
+				4288893028616C1700001502 /* RPReplay_Final1655775317.gif in Resources */,
+				4288893128616C1700001502 /* IMG_0364.jpg in Resources */,
+				428888A128600B7600001502 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428888AF28600B7A00001502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428888B928600B7A00001502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4288888F28600B7600001502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428888AC28600B7A00001502 /* main.m in Sources */,
+				4288889E28600B7600001502 /* ViewController.m in Sources */,
+				4288889828600B7600001502 /* AppDelegate.m in Sources */,
+				4288892628606F3600001502 /* HYSpringboardCustomIcon.m in Sources */,
+				428888A428600B7600001502 /* HYSpringboardViewDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428888AD28600B7A00001502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428888B628600B7A00001502 /* HYSpringboardViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428888B728600B7A00001502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428888C028600B7A00001502 /* HYSpringboardViewDemoUITests.m in Sources */,
+				428888C228600B7A00001502 /* HYSpringboardViewDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		428888B328600B7A00001502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4288889228600B7600001502 /* HYSpringboardViewDemo */;
+			targetProxy = 428888B228600B7A00001502 /* PBXContainerItemProxy */;
+		};
+		428888BD28600B7A00001502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4288889228600B7600001502 /* HYSpringboardViewDemo */;
+			targetProxy = 428888BC28600B7A00001502 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4288889F28600B7600001502 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428888A028600B7600001502 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428888A728600B7900001502 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428888A828600B7A00001502 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428888C328600B7A00001502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		428888C428600B7A00001502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428888C628600B7A00001502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HYSpringboardViewDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HYSpringboardViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYSpringboardViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		428888C728600B7A00001502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HYSpringboardViewDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HYSpringboardViewDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYSpringboardViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		428888C928600B7A00001502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYSpringboardViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYSpringboardViewDemo.app/HYSpringboardViewDemo";
+			};
+			name = Debug;
+		};
+		428888CA28600B7A00001502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYSpringboardViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYSpringboardViewDemo.app/HYSpringboardViewDemo";
+			};
+			name = Release;
+		};
+		428888CC28600B7A00001502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYSpringboardViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYSpringboardViewDemo;
+			};
+			name = Debug;
+		};
+		428888CD28600B7A00001502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L76H2ZNA28;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axc.HYSpringboardViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYSpringboardViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4288888E28600B7600001502 /* Build configuration list for PBXProject "HYSpringboardViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428888C328600B7A00001502 /* Debug */,
+				428888C428600B7A00001502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428888C528600B7A00001502 /* Build configuration list for PBXNativeTarget "HYSpringboardViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428888C628600B7A00001502 /* Debug */,
+				428888C728600B7A00001502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428888C828600B7A00001502 /* Build configuration list for PBXNativeTarget "HYSpringboardViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428888C928600B7A00001502 /* Debug */,
+				428888CA28600B7A00001502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428888CB28600B7A00001502 /* Build configuration list for PBXNativeTarget "HYSpringboardViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428888CC28600B7A00001502 /* Debug */,
+				428888CD28600B7A00001502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		428888A228600B7600001502 /* HYSpringboardViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				428888A328600B7600001502 /* HYSpringboardViewDemo.xcdatamodel */,
+			);
+			currentVersion = 428888A328600B7600001502 /* HYSpringboardViewDemo.xcdatamodel */;
+			path = HYSpringboardViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4288888B28600B7600001502 /* Project object */;
+}
