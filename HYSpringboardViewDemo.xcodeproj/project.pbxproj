@@ -20,9 +20,6 @@
 		4288892628606F3600001502 /* HYSpringboardCustomIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288892528606F3600001502 /* HYSpringboardCustomIcon.m */; };
 		4288892928615B1200001502 /* HYSpringboardViewSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4288892728615A4F00001502 /* HYSpringboardViewSDK.framework */; platformFilter = ios; };
 		4288892A28615B1200001502 /* HYSpringboardViewSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4288892728615A4F00001502 /* HYSpringboardViewSDK.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4288892F28616C1700001502 /* IMG_0365.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4288892C28616C1600001502 /* IMG_0365.jpg */; };
-		4288893028616C1700001502 /* RPReplay_Final1655775317.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4288892D28616C1700001502 /* RPReplay_Final1655775317.gif */; };
-		4288893128616C1700001502 /* IMG_0364.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4288892E28616C1700001502 /* IMG_0364.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,9 +73,6 @@
 		4288892428606F3600001502 /* HYSpringboardCustomIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSpringboardCustomIcon.h; sourceTree = "<group>"; };
 		4288892528606F3600001502 /* HYSpringboardCustomIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSpringboardCustomIcon.m; sourceTree = "<group>"; };
 		4288892728615A4F00001502 /* HYSpringboardViewSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HYSpringboardViewSDK.framework; sourceTree = "<group>"; };
-		4288892C28616C1600001502 /* IMG_0365.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0365.jpg; sourceTree = "<group>"; };
-		4288892D28616C1700001502 /* RPReplay_Final1655775317.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RPReplay_Final1655775317.gif; sourceTree = "<group>"; };
-		4288892E28616C1700001502 /* IMG_0364.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0364.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +124,6 @@
 		4288889528600B7600001502 /* HYSpringboardViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4288892E28616C1700001502 /* IMG_0364.jpg */,
-				4288892C28616C1600001502 /* IMG_0365.jpg */,
-				4288892D28616C1700001502 /* RPReplay_Final1655775317.gif */,
 				4288892728615A4F00001502 /* HYSpringboardViewSDK.framework */,
 				4288889628600B7600001502 /* AppDelegate.h */,
 				4288889728600B7600001502 /* AppDelegate.m */,
@@ -272,10 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				428888A928600B7A00001502 /* LaunchScreen.storyboard in Resources */,
-				4288892F28616C1700001502 /* IMG_0365.jpg in Resources */,
 				428888A628600B7900001502 /* Assets.xcassets in Resources */,
-				4288893028616C1700001502 /* RPReplay_Final1655775317.gif in Resources */,
-				4288893128616C1700001502 /* IMG_0364.jpg in Resources */,
 				428888A128600B7600001502 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
